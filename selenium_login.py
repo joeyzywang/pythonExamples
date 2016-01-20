@@ -11,9 +11,9 @@ company = driver.find_element_by_name('company')
 username = driver.find_element_by_name('username')
 password = driver.find_element_by_name('password')
 
-company.send_keys("asctestsj")
-username.send_keys("zhenwang")
-password.send_keys("zhenwang")
+company.send_keys("")
+username.send_keys("")
+password.send_keys("")
 
 driver.find_element_by_id("login_button").click()
 WebDriverWait(driver, 20)
